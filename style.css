@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#todo {
+    height: 35rem;
+    width: 53vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2%;
+    background: linear-gradient(to right, #D4FC79, #96E6A1, #00D2FF);
+    border-radius: 1rem;
+    margin-left: 60vh ;
+    margin-top: 10vh;
+
+}
+
+div h1 {
+    color: rgb(90, 22, 22);
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 5vh;
+    
+
+}
+
+div input {
+    width: 80%;
+    height: 6vh;
+    margin-bottom: 10vh;
+    border: none;
+    border-radius: 1rem;
+    font-weight: bolder;
+}
+
+
+div button {
+    width: 20vh;
+    height: 7vh;
+    border-radius: 0.8rem;
+    background-color:#fbff25;
+    color: rgb(56, 28, 28);
+    font-size: 2vh;
+    font-family: fantasy;
+    border: none;
+}
